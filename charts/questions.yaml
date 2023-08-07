@@ -141,8 +141,8 @@ questions:
   group: "Nodepools"
 - variable: nodepools.0.rootSize
   label: "Root Disk Size"
-  default: 16g
-  type: string
+  default: 16
+  type: int
   description: "AWS EC2 root disk size"
   show_if: cloudprovider=amazonec2
   group: "Nodepools"
