@@ -10,6 +10,6 @@ entries:
     digest: d372363c814ac79e7d1f4b877e9b47ec39eaf3fde5a70137a0074dfa70e3dd2c
     name: cluster-template
     urls:
-    - cluster-template-0.0.1.tgz
-    version: 0.0.1
+    - cluster-template-0.0.2.tgz
+    version: 0.0.2
 generated: "2022-02-25T15:54:51.600996-08:00"
