@@ -1,6 +1,6 @@
 apiVersion: v1
 entries:
-  cluster-template:
+  cluster-template1:
   - annotations:
       catalog.cattle.io/namespace: fleet-default
       catalog.cattle.io/type: cluster-template
@@ -12,16 +12,16 @@ entries:
     urls:
     - cluster-template-0.0.1.tgz
     version: 0.0.1
-  cluster-template:
+  cluster-template2:
   - annotations:
       catalog.cattle.io/namespace: fleet-default
       catalog.cattle.io/type: cluster-template
     apiVersion: v1
-    created: "2022-02-25T15:54:51.604663-08:00"
-    description: Cluster template for rke2
-    digest: d372363c814ac79e7d1f4b877e9b47ec39eaf3fde5a70137a0074dfa70e3dd2c
+    created: "2023-08-25T15:54:51.604663-08:00"
+    description: Cluster template for rke2 v2
+    digest: 06570df270fbda1cda46d7e0ee73ca783df4a2d12edb2d1b3f18bc78337f8a7f
     name: cluster-template2
     urls:
     - cluster-template-0.0.2.tgz
     version: 0.0.2
-generated: "2022-02-25T15:54:51.600996-08:00"
+generated: "2023-08-25T15:54:51.600996-08:00"
