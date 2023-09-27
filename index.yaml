@@ -24,7 +24,7 @@ entries:
     urls:
     - cluster-template-0.0.2.tgz
     version: 0.0.2
-  cluster-template2:
+  cluster-template3:
   - annotations:
       catalog.cattle.io/namespace: fleet-default
       catalog.cattle.io/type: cluster-template
