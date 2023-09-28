@@ -15,7 +15,7 @@ entries:
   cluster-template2:
   - annotations:
       catalog.cattle.io/namespace: fleet-default
-      catalog.cattle.io/type: cluster-template
+      catalog.cattle.io/type: cluster-template2
     apiVersion: v1
     created: "2023-08-25T15:54:51.604663-08:00"
     description: Cluster template for rke2 v2
@@ -27,11 +27,11 @@ entries:
   cluster-template3:
   - annotations:
       catalog.cattle.io/namespace: fleet-default
-      catalog.cattle.io/type: cluster-template
+      catalog.cattle.io/type: cluster-template3
     apiVersion: v1
     created: "2023-09-27T15:54:51.604663-08:00"
     description: Cluster template for rke2 v3
-    digest: 9b45e1685fdd34b1da35c052be19ca787fbf3cbf7cde4fa8b794dc54df4973d9
+    digest: caa84f4025cb08e4bcf98a8529696d809a5f54ea6cf639fca60ef1674a00ab83
     name: cluster-template3
     urls:
     - cluster-template-0.0.3.tgz
