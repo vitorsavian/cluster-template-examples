@@ -96,7 +96,7 @@ nodepools:
   # machineDeploymentAnnotations: {}
 
   # specify nodepool name
-  name: "vsavian-chart"
+  name: "vsavian-rancher-template-testing"
 
   # vSphere vm configuration parameters (used for guestinfo)
   # cfgparam: []
@@ -134,7 +134,7 @@ nodepools:
   # customAttribute: ["200=mycustom value"]
 
   # vSphere datacenter for virtual machine
-  datacenter: "Datacenter"
+  datacenter: "wrangler7.provo.rancherlabs.com"
 
   # vSphere datastore for virtual machine
   datastore: "datastore1"
@@ -146,7 +146,7 @@ nodepools:
   diskSize: '"25000"'
 
   # vSphere folder for the docker VM. This folder must already exist in the datacenter
-  folder: "/Datacenter/vm/vs-vm"
+  folder: "/datastore1/vsavian"
 
   # vSphere compute resource where the docker VM will be instantiated. This can be omitted if using a cluster with DRS
   # hostsystem: "linux"
@@ -158,7 +158,7 @@ nodepools:
   network: '["VM Network"]'
 
   # vSphere resource pool for docker VM
-  pool: "/host/Cluster/Resources/vsavian"
+  pool: "/host/vsavian"
 
   # vSphere Port for vCenter
   # vcenterPort: '"443"'
@@ -219,7 +219,7 @@ nodepools:
   # machineDeploymentAnnotations: {}
 
   # specify nodepool name
-  name: "vsavian-chart-2"
+  name: "vsavian-rancher-template-testing"
 
   # vSphere vm configuration parameters (used for guestinfo)
   # cfgparam: []
@@ -246,7 +246,7 @@ nodepools:
   # customAttribute: ["200=mycustom value"]
 
   # vSphere datacenter for virtual machine
-  datacenter: "Datacenter"
+  datacenter: "wrangler7.provo.rancherlabs.com"
 
   # vSphere datastore for virtual machine
   datastore: "datastore1"
@@ -258,7 +258,7 @@ nodepools:
   diskSize: '"20480"'
 
   # vSphere folder for the docker VM. This folder must already exist in the datacenter
-  folder: "/Datacenter/vm/vs-vm"
+  folder: "/datastore1/vsavian"
 
   # vSphere compute resource where the docker VM will be instantiated. This can be omitted if using a cluster with DRS
   # hostsystem: ""
@@ -270,7 +270,7 @@ nodepools:
   network: '["VM Network"]'
 
   # vSphere resource pool for docker VM
-  pool: "/host/Cluster/Resources/vsavian"
+  pool: "/host/vsavian"
 
   # If using a non-B2D image you can specify the ssh port
   # sshPort: "22"
